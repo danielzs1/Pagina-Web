@@ -1,49 +1,231 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniel Zabala</title>
-    <link rel="shortcurt icon" href="media/logo daniel.png">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <title>SISTEMAX </title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <meta name="title" content="Asesoria en sistemas integrados de gestion">
+    <meta name="description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alexcgdesign.github.io">
+    <meta property="og:title" content="Aprende CSS desde cero">
+    <meta property="og:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="og:image" content="https://alexcgdesign.github.io/images/css.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.jordanalex.com/">
+    <meta property="twitter:title" content="Aprende CSS desde cero">
+    <meta property="twitter:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="twitter:image" content="https://alexcgdesign.github.io/images/css.jpg">
 </head>
+
 <body>
-    
+
     <header class="hero">
-        <nav class="nav container">   
-            <div class="nav_logo" >
-                <h2 class="nav_title" Daniel Zabala.></h2>
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Sistemax Consultores</h2>
             </div>
 
-            <ul class="nav_link nav_link--menu">
-                <li class="nav_items">
-                    <a href="#" class="nav_links">Inicio</a>
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
                 </li>
-                <li class="nav_items">
-                    <a href="#" class="nav_links">Acerca de</a>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Acerca de</a>
                 </li>
-                <li class="nav_items">
-                    <a href="#" class="nav_links">Contacto</a>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
                 </li>
-                <li class="nav_items">
-                    <a href="#" class="nav_links">Blog</a>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Blog</a>
                 </li>
-                
-                <img src="media/logo daniel.png" class="nav_close">
+
+                <img src="./media/education.png" class="nav__close">
             </ul>
 
-            <div class="nav_menu">
-                <img src="media/menu.svg" class="nav_img">
+            <div class="nav__menu">
+                <img src="./media/document.svg" class="nav__img">
             </div>
         </nav>
 
-        <section class="hero_container container">
-            <h1 class="hero_ttitle">Asesorias en sistemas integrados de gestion</h1>
-            <p cñass=""hero_paragraoh">Te ayudo a implementar tus sustema integrados de gestion</p>
-            <a href="#" class="cta">Comienza ahora </a>
-
-        </section>  
+        <section class="hero__container container">
+            <h1 class="hero__title">Asesoria en sistemas integrados de gestion.</h1>
+            <p class="hero__paragraph">Asesorías profesionales en Sistemas Integrados de Gestión (Calidad, Ambiente,
+                Seguridad y Salud Ocupacional). Te ayudo a implementar y optimizar normas ISO para que tu empresa cumpla
+                con los más altos estándares, mejore sus procesos y garantice un entorno seguro y sostenible..</p>
+            <a href="#" class="cta">Obtener información</a>
+        </section>
     </header>
-</body>
-</html>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">Nuestros Servicios de Asesoría en Sistemas Integrados de Gestión</h2>
+            <p class="about__paragraph">Ofrecemos soluciones completas para implementar, mantener y mejorar tus sistemas
+                de calidad, medio ambiente y seguridad, adaptados a las necesidades específicas de tu organización.</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./media/integral.png"about__icon">
+                    <h3 class="about__title">Implementación Integral</h3>
+                    <p class="about__paragrah">Te ayudamos a integrar ISO 9001, 14001 y 45001 en un solo sistema
+                        eficiente, adaptado a tu empresa.?</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./media/search.png" class="about__icon">
+                    <h3 class="about__title">Auditorías y Seguimiento</h3>
+                    <p class="about__paragrah">Realizamos auditorías internas para asegurar el cumplimiento normativo y
+                        detectar oportunidades de mejora.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./media/education.png" class="about__icon">
+                    <h3 class="about__title">Capacitación y Soporte</h3>
+                    <p class="about__paragrah">Formamos a tu equipo para que gestionen el sistema con confianza y te
+                        acompañamos en todo el proceso.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">Beneficios de implementar un Sistema Integrado de Gestió</h2>
+                    <p class="knowledge__paragraph">Con nuestra experiencia, ayudamos a que tu empresa no solo cumpla con las normativas, sino que también mejore su reputación y competitividad en el mercado. Aumentamos la seguridad laboral y fomentamos una cultura organizacional comprometida con el bienestar y la sostenibilidad. Te apoyamos en la gestión documental, en la formación del talento humano y en la preparación para certificaciones que consolidan tu liderazgo empresarial.</p>
+                    <a href="#" class="cta">Recibir información</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./media/iso.jpg" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Flexbox</p>
+                    <h3 class="price__price">Free</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Flexbox</p>
+                        <p class="price__features">Layouts</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Grid</p>
+                    <h3 class="price__price">$30/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Grid</p>
+                        <p class="price__features">Implicit Grid</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">Animaciones</p>
+                    <h3 class="price__price">$40/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Animation</p>
+                        <p class="price__features">Transition</p>
+                        <p class="price__features">Render Website</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+            </div>
+        </section>
+
+
+         <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./media/left.png" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Jordan Alexander, <span class="testimony__course">estudiante
+                                de CSS.</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem
+                            blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./media/documentar.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Alejandra Perez, <span class="testimony__course">estudiante de
+                                CSS.</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
+                            voluptatum!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./media/computador.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Karen Arteaga, <span class="testimony__course">estudiante de
+                                CSS.</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./media/full-stack.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Kevin Ramirez, <span class="testimony__course">estudiante de
+                                CSS.</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./media/indicadores.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="./media/right.png" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+ 
